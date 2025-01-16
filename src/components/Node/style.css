@@ -1,0 +1,22 @@
+.node {
+    display: inline-block;
+    background-color: #e9ecef;
+    color: black;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    min-width: 100px;
+    font-size: 14px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.node-actions {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+    justify-content: center;
+}
